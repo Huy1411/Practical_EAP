@@ -30,7 +30,7 @@ namespace EmployeeConsumerApplication.Controllers
             var employees = from s in servicesClient.getAllEmployee() select s;
             if (!String.IsNullOrEmpty(search)) // check nếu search string có thì in ra hoặc không thì không in ra
             {
-                employees = employees.Where(emp => emp.Department.DepartmentName.Contains(search) || emp => emp.Department.DepartmentName.Contains(search)); // contains là để check xem lastname hoặc firstName có chứa search string ở trên 
+                employees = employees.Where(emp => emp.Department.DepartmentName.Contains(search)); // contains là để check xem lastname hoặc firstName có chứa search string ở trên 
             }
             switch (sortOrder)
             {
@@ -39,7 +39,7 @@ namespace EmployeeConsumerApplication.Controllers
                     break;
 
                 default:
-                    employees = employees.OrderBy((emp => emp.Department.DepartmentName);
+                    employees = employees.OrderBy((emp => emp.Department.DepartmentName));
                     break;
             }
 

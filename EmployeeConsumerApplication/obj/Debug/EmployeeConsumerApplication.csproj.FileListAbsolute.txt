@@ -107,4 +107,3 @@ C:\Users\Huy Lo\source\repos\EmployeeConsumerApplication\EmployeeConsumerApplica
 C:\Users\Huy Lo\source\repos\EmployeeConsumerApplication\EmployeeConsumerApplication\obj\Debug\EmployeeConsumerApplication.pdb
 C:\Users\Huy Lo\source\repos\EmployeeConsumerApplication\EmployeeConsumerApplication\obj\Debug\EmployeeConsumerApplication.Migrations.updateauthencation.resources
 C:\Users\Huy Lo\source\repos\EmployeeConsumerApplication\EmployeeConsumerApplication\obj\Debug\EmployeeConsumerApplication.csproj.GenerateResource.cache
-C:\Users\Huy Lo\source\repos\EmployeeConsumerApplication\EmployeeConsumerApplication\obj\Debug\EmployeeConsumerApplication.csprojAssemblyReference.cache
